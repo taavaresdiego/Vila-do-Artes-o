@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #f0eac7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.menu {
+  grid-column: 1 / -1;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.img-sol {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 250px;
+}
+
+.img-planta {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.img-casa {
+  grid-column: 3/4;
+  margin-top: 20px;
+}
+
+.titulo {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 80px;
+}
+
+.paragrafo {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
